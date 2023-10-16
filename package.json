@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse-server",
+  "version": "1.0.0",
+  "description": "Comet Rocks Lighthouse Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "railway up --service=lighthouse-server --environment=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lhci/server": "^0.12.0",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4"
+  }
+}
+
